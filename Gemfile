@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 # Devise
 gem 'devise'
-gem 'omniauth-twitter'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
